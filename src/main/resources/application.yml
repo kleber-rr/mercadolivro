@@ -8,3 +8,7 @@ spring:
     password: postgres
   jackson:
     default-property-inclusion: non_null
+
+jwt:
+  secret: fe6da7bc-1240-43c8-9f10-98da18e46a48
+  expiration: 9999999
